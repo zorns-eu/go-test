@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: go-test
+  description: test
+  annotations: 
+    github.com/project-slug: zorns-eu/go-test
+    backstage.io/github-actions-id: zorns-eu/go-test
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guest
